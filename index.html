@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" style="font-size: 35px;">
+          <img id="nav-logo" src="./images/home-logo.png" alt="Finjan" />
+          Finjan
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="font-size: 25px;">
+            <li class="nav-item ms-lg-5 ps-3">
+              <a class="nav-link" aria-current="page" href="./aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item  ms-3">
+              <a class="nav-link" href="./team.html">Meet the Team</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
+            <li class="nav-item  ms-3">
+              <a class="nav-link" href="./events.html">Events</a>
+            </li>
+            <li class="nav-item  ms-3">
+              <a class="nav-link" href="./publications.html">Publications</a>
+            </li>
+          <!-- </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button> -->
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sliding Tabs -->
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/finsight.jpeg"
+            class="d-block w-100 h-10"
+            alt="FinSight"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/rendezvous.jpeg"
+            class="d-block w-100"
+            alt="Rendezvous"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/team.png" class="d-block w-100" alt="Team" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- About Us Section -->
+
+    <br>
+    <div class="container-fluid">
+
+        <div class="title mb-3 mt-5" style="text-align: center; font-family:Georgia, 'Times New Roman', Times, serif; font-size: xx-large; text-decoration: underline;">ABOUT US</div>
+        <div class="d-flex flex-md-row flex-column justify-content-around">
+            <div class="about1 my-5" style="text-align: center;">
+                Mission <br> <br>
+                <div class="px-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam accusamus qui eligendi odit? Possimus consectetur ratione, magni labore nulla voluptate at consequatur adipisci aperiam? Similique sunt, quaerat, voluptatem vero nam tempora harum nisi dolorum nostrum mollitia illum totam! Alias eaque rerum quidem officiis sint in atque sed, blanditiis laborum aperiam? Quod id sequi fugit ducimus, aut autem? Unde, vitae reprehenderit doloremque enim repudiandae nihil deleniti vel sint. Rerum quam saepe facilis numquam aliquam, nostrum itaque quia quas laudantium animi vel modi ipsa, sunt, quod maiores minus excepturi deserunt doloribus consequuntur labore quis rem autem ad! Voluptas commodi voluptatibus saepe.
+                </div>
+            </div>
+            <div class="about2 my-5" style="text-align: center;">
+                Vision <br> <br>
+                <div class="px-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptate dolor assumenda placeat, totam iure labore nisi quia a fuga autem. Earum esse quia asperiores. Non explicabo, aspernatur nostrum quaerat officia quam tempora molestiae vitae quo odio, sit nemo est magnam, ab aliquid quisquam fugit ipsum! Neque alias corporis quod modi mollitia temporibus eveniet cumque voluptates, explicabo ea officia sunt consequuntur sequi saepe debitis ullam veritatis fugiat natus repellendus placeat tenetur veniam voluptatem pariatur. Sequi impedit vel ullam ad iusto adipisci. Natus, beatae. Tenetur, voluptates! Ab sunt nemo accusamus quam neque! Molestias aliquid distinctio magni incidunt repellat. Nihil, fugiat dicta?.
+                </div>
+            </div>
+        </div>
+        <a href="./aboutus.html">
+        <div class="d-grid gap-2 col-4 mx-auto mb-4">
+                <button id="readmore" class="btn btn-primary" type="button">
+                    Read More About Us
+                </button>
+            </div>
+        </a>
+    </div>
+
+    <br><br><br>
+    <hr>
+    <!-- Events Section -->
+
+    <!-- <div class="d-flex justify-content-center"> -->
+    <div class="container-fluid p-0 pt-4">
+        <div class="title my-5" style="text-align: center; font-family:Georgia, 'Times New Roman', Times, serif; font-size: xx-large; text-decoration: underline;">EVENTS</div>
+        <div class="title my-5" style="text-align: center; ">Know about our upcoming & past events.</div>
+        <a href="./events.html">
+            <div class="d-grid gap-2 col-4 mx-auto mb-4">
+                <button id="readmore" class="btn btn-primary" type="button">
+                    View More
+                </button>
+            </div>
+        </a>
+        <video autoplay muted loop src="./finjanRZ.mp4" controlsList="nodownload" width="100%"></video>
+    </div>
+
+    <!-- QuickLinks -->
+
+    <div class="container-fluid m-0 p-0">
+        <div class="d-flex flex-wrap  justify-content-around">
+            <div class="box0" style="text-align: center;">
+                <img id="ql-logo" src="./images/home-logo.png" alt="">
+            </div>
+            <div class="box1">
+                <div class="about1 my-5" style="text-align: center;">
+                    Quick Links <br> <br>
+                    <div class="px-3">
+                        <a style="text-decoration: none; color: black;" href="./">Home</a> <br>
+                        <a style="text-decoration: none; color: black;" href="./aboutus.html">About Us</a> <br> 
+                        <a style="text-decoration: none; color: black;" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="about1 my-5" style="text-align: center;">
+                    Address <br> <br>
+                    <div class="px-3">
+                        Ramanujan College, Kalkaji <br> New Delhi, 110019 
+                    </div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="about1 m-5" style="text-align: center;">
+                    Mail IDs. <br> <br>
+                    <div class="px-3">
+                        mail1@gmail.com <br>
+                        mail2@gmail.com <br>
+                        mail3@gmail.com <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="sticky-bottom d-flex justify-content-center pt-2" style="text-align: center; background-color: black; color: white; height: 40px;">
+        <div class="me-5 p-1">
+            Follow Us on!
+        </div>
+        <div class="">
+            <a style="text-decoration: none;" href="https://www.instagram.com/finjan.rcdu/" class="me-3">
+                <img style="height: 30px;" src="./images/instagram.png" alt="Instagram">
+            </a>
+            <a style="text-decoration: none;" href="https://www.linkedin.com/company/finjan-fic-ramanujan/" class="me-3">
+                <img style="height: 30px;" src="./images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a style="text-decoration: none;" href="#" class="me-3">
+                <img style="height: 30px;" src="./images/facebook.png" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        setInterval(() => {
+            if (window.innerWidth<555){
+                document.querySelector('#readmore').innerHTML="Read More"
+            }
+            else{
+                document.querySelector('#readmore').innerHTML="Read More About Us"
+            }
+        }, 100);
+    </script>
+  </body>
+</html>
